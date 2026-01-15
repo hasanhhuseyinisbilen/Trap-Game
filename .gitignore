@@ -1,0 +1,19 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+Trap Game_BurstDebugInformation_DoNotShip/
+
+.vscode/
+
+*.csproj
+*.sln
+*.slnx
+*.user
+*.unityproj
+*.pidb
+*.booproj
+*.svd

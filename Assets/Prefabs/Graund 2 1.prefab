@@ -1,0 +1,462 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2843710291839736425
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 786904926115497212}
+  - component: {fileID: 7053636221985221378}
+  - component: {fileID: 9066729921550695665}
+  m_Layer: 0
+  m_Name: Graund 2 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &786904926115497212
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2843710291839736425}
+  serializedVersion: 2
+  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
+  m_LocalPosition: {x: 22.253239, y: 2.1639483, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 449528744736366460}
+  - {fileID: 7669517068119483318}
+  - {fileID: 5452089348067766880}
+  - {fileID: 7233145915995068604}
+  - {fileID: 2088798645899452406}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!50 &7053636221985221378
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2843710291839736425}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!66 &9066729921550695665
+CompositeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2843710291839736425}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 0
+  m_GenerationType: 0
+  m_EdgeRadius: 0
+  m_ColliderPaths: []
+  m_CompositePaths:
+    m_Paths: []
+  m_VertexDistance: 0.0005
+  m_OffsetDistance: 0.00005
+  m_UseDelaunayMesh: 0
+  m_CompositeGameObject: {fileID: 2843710291839736425}
+--- !u!1001 &682112485065667228
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 786904926115497212}
+    m_Modifications:
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379919019842880006, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_Size.x
+      value: 8.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379919019842880006, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_Size.y
+      value: 3.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710427232731174763, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_Name
+      value: Big Snowy Box (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 52102935a2dd39a459327e877274e761, type: 3}
+--- !u!4 &449528744736366460 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+  m_PrefabInstance: {fileID: 682112485065667228}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1420519541762650646
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 786904926115497212}
+    m_Modifications:
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 31.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379919019842880006, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_Size.x
+      value: 8.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379919019842880006, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_Size.y
+      value: 3.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710427232731174763, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_Name
+      value: Big Snowy Box (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 52102935a2dd39a459327e877274e761, type: 3}
+--- !u!4 &2088798645899452406 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+  m_PrefabInstance: {fileID: 1420519541762650646}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4964061705914097536
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 786904926115497212}
+    m_Modifications:
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379919019842880006, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_Size.x
+      value: 8.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379919019842880006, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_Size.y
+      value: 3.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710427232731174763, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_Name
+      value: Big Snowy Box (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 52102935a2dd39a459327e877274e761, type: 3}
+--- !u!4 &5452089348067766880 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+  m_PrefabInstance: {fileID: 4964061705914097536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7288456497114811990
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 786904926115497212}
+    m_Modifications:
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379919019842880006, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_Size.x
+      value: 8.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379919019842880006, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_Size.y
+      value: 3.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710427232731174763, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_Name
+      value: Big Snowy Box (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 52102935a2dd39a459327e877274e761, type: 3}
+--- !u!4 &7669517068119483318 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+  m_PrefabInstance: {fileID: 7288456497114811990}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7722299320507053404
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 786904926115497212}
+    m_Modifications:
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 22.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379919019842880006, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_Size.x
+      value: 8.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379919019842880006, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_Size.y
+      value: 3.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710427232731174763, guid: 52102935a2dd39a459327e877274e761, type: 3}
+      propertyPath: m_Name
+      value: Big Snowy Box (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 52102935a2dd39a459327e877274e761, type: 3}
+--- !u!4 &7233145915995068604 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1101787282029161952, guid: 52102935a2dd39a459327e877274e761, type: 3}
+  m_PrefabInstance: {fileID: 7722299320507053404}
+  m_PrefabAsset: {fileID: 0}
