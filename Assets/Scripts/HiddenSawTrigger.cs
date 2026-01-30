@@ -18,7 +18,7 @@ public class HiddenSawTrigger : MonoBehaviour
             sawCollider = targetSaw.GetComponent<Collider2D>();
             sawMovement = targetSaw.GetComponent<SawMoveLeft>();
 
-            // Başlangıçta gizle
+            
             if (sawRenderer) sawRenderer.enabled = false;
             if (sawCollider) sawCollider.enabled = false;
             // Hareketi durdur (Script üzerindeki public değişkeni kapatmıyoruz, scriptte 'move' bool'u var)
@@ -40,7 +40,7 @@ public class HiddenSawTrigger : MonoBehaviour
             // Hareketi başlat
             if (sawMovement) sawMovement.move = true;
 
-            Debug.Log("Hidden Saw Activated and Moving!");
+            Debug.Log("Hidden Saw Activated and Movingfg!");
         }
     }
 }
