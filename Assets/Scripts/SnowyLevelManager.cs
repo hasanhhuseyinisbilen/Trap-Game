@@ -69,13 +69,23 @@ public class SnowyLevelManager : MonoBehaviour
     }
     public void LoadNextLevel()
     {
+        Debug.Log($"LoadNextLevel CALLED. Current Index before increase: {currentLevelIndex}, Total Levels: {allLevels.Length}");
+        
         currentLevelIndex++;
 
+        // Eğer son level bittiyse başa dön (Döngü)
         if (currentLevelIndex >= allLevels.Length)
         {
-            return;
+            Debug.Log("Last level reached. Looping back to Level 0 (Index 0).");
+            currentLevelIndex = 0; // Başa sar
         }
 
+        Debug.Log($"Attempting to build level index: {currentLevelIndex}");
+        BuildLevel(currentLevelIndex);
+    }
+
+    public void RestartLevel()
+    {
         BuildLevel(currentLevelIndex);
     }
 }

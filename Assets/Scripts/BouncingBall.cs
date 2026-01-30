@@ -12,7 +12,6 @@ public class SnowBallDropTrigger : MonoBehaviour
 
         dropped = true;
 
-        // Artık fizik devrede → düşer
         snowBallRb.bodyType = RigidbodyType2D.Dynamic;
     }
 }
