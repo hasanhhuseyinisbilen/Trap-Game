@@ -19,7 +19,6 @@ public class IcicleTrigger : MonoBehaviour
             if (!rb.CompareTag("Icicle"))
                 continue;
 
-         
             if (rb.bodyType == RigidbodyType2D.Dynamic)
                 continue;
 
