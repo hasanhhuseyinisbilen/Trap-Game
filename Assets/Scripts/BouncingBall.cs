@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class SnowBallDropTrigger : MonoBehaviour
 {
-    public Rigidbody2D snowBallRb;
+    [SerializeField] private Rigidbody2D snowBallRb;
     private bool dropped = false;
 
     private void OnTriggerEnter2D(Collider2D other)

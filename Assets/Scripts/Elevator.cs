@@ -13,7 +13,7 @@ public class Elevator : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        // Asansörün yer çekiminden etkilenmemesi için
+   
         if (rb) rb.gravityScale = 0;
     }
 
@@ -21,7 +21,6 @@ public class Elevator : MonoBehaviour
     {
         if (isMoving)
         {
-             // Hedefe ulaşıldı mı?
             if (stopAtTarget && transform.position.y >= targetY)
             {
                 rb.linearVelocity = Vector2.zero;
@@ -33,16 +32,26 @@ public class Elevator : MonoBehaviour
                 rb.linearVelocity = Vector2.up * speed;
             }
         }
+        else
+        {
+          
+            rb.linearVelocity = Vector2.zero;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            // Oyuncu asansöre bindi, hareketi başlat
-            isMoving = true;
-            
-            // Kullanıcı isteği üzerine 'yapışma' (parenting) kodu kaldırıldı.
+            isMoving = true;           
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            isMoving = false;
         }
     }
 }

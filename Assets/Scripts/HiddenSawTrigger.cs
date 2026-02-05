@@ -20,8 +20,7 @@ public class HiddenSawTrigger : MonoBehaviour
 
             
             if (sawRenderer) sawRenderer.enabled = false;
-            if (sawCollider) sawCollider.enabled = false;
-            // Hareketi durdur (Script üzerindeki public değişkeni kapatmıyoruz, scriptte 'move' bool'u var)
+            if (sawCollider) sawCollider.enabled = false;            // Hareketi durdur (Script üzerindeki public değişkeni kapatmıyoruz, scriptte 'move' bool'u var)
             if (sawMovement) sawMovement.move = false;
         }
     }
@@ -33,14 +32,9 @@ public class HiddenSawTrigger : MonoBehaviour
         {
             activated = true;
 
-            // Görünür yap ve aktif et
             if (sawRenderer) sawRenderer.enabled = true;
-            if (sawCollider) sawCollider.enabled = true;
-            
-            // Hareketi başlat
+            if (sawCollider) sawCollider.enabled = true;    
             if (sawMovement) sawMovement.move = true;
-
-            Debug.Log("Hidden Saw Activated and Movingfg!");
         }
     }
 }

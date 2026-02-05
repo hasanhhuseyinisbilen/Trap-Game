@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6042613885302895179, guid: 7a31457184620844b93c626864916544, type: 3}
       propertyPath: m_TagString
-      value: Square
+      value: Trap
       objectReference: {fileID: 0}
     - target: {fileID: 7382370582392565588, guid: 7a31457184620844b93c626864916544, type: 3}
       propertyPath: m_LocalPosition.x
@@ -60,7 +60,11 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 7922675414548678799, guid: 7a31457184620844b93c626864916544, type: 3}
     - {fileID: 7449126586803343222, guid: 7a31457184620844b93c626864916544, type: 3}
-    m_AddedGameObjects: []
+    - {fileID: 5004677716706498064, guid: 7a31457184620844b93c626864916544, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7382370582392565588, guid: 7a31457184620844b93c626864916544, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 794522081132793714}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6042613885302895179, guid: 7a31457184620844b93c626864916544, type: 3}
       insertIndex: -1
@@ -98,3 +102,70 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 5
+--- !u!4 &7407589807350555421 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7382370582392565588, guid: 7a31457184620844b93c626864916544, type: 3}
+  m_PrefabInstance: {fileID: 53613564163935305}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1813241242744368740
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7407589807350555421}
+    m_Modifications:
+    - target: {fileID: 1310363676255084822, guid: 769b0a39338934745aa54f23116e9db6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.75964355
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310363676255084822, guid: 769b0a39338934745aa54f23116e9db6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5912361
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310363676255084822, guid: 769b0a39338934745aa54f23116e9db6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310363676255084822, guid: 769b0a39338934745aa54f23116e9db6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.00000020861623
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310363676255084822, guid: 769b0a39338934745aa54f23116e9db6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310363676255084822, guid: 769b0a39338934745aa54f23116e9db6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310363676255084822, guid: 769b0a39338934745aa54f23116e9db6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310363676255084822, guid: 769b0a39338934745aa54f23116e9db6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310363676255084822, guid: 769b0a39338934745aa54f23116e9db6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310363676255084822, guid: 769b0a39338934745aa54f23116e9db6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6544504216370340059, guid: 769b0a39338934745aa54f23116e9db6, type: 3}
+      propertyPath: m_Name
+      value: ChatGPT Image Jan 6, 2026, 09_14_33 PM_0 (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 769b0a39338934745aa54f23116e9db6, type: 3}
+--- !u!4 &794522081132793714 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1310363676255084822, guid: 769b0a39338934745aa54f23116e9db6, type: 3}
+  m_PrefabInstance: {fileID: 1813241242744368740}
+  m_PrefabAsset: {fileID: 0}

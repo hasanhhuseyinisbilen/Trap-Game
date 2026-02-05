@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 5654641860463798426}
   - component: {fileID: 3735875242003249028}
   - component: {fileID: 3507332271598885353}
+  - component: {fileID: 6344658299395705974}
   m_Layer: 7
   m_Name: ChatGPT Image Jan 6, 2026, 09_39_14 PM_0 1
   m_TagString: Icicle
@@ -494,3 +495,15 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 9.7, y: 0.7}
   m_EdgeRadius: 0.1
+--- !u!114 &6344658299395705974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986582439535586896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf0d0eea5f19747469ebb2ca3b943b12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BuzSarkiti

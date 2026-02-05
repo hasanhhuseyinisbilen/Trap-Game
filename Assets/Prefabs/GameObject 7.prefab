@@ -40,29 +40,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8263513450265935827}
     m_Modifications:
-    - target: {fileID: 1734930738461003210, guid: 4a4081377d16174428c04005f33d79ab, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3367202362287572346, guid: 4a4081377d16174428c04005f33d79ab, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 3367202362287572346, guid: 4a4081377d16174428c04005f33d79ab, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 4304018832544755002, guid: 4a4081377d16174428c04005f33d79ab, type: 3}
       propertyPath: m_Name
       value: SnowBall
-      objectReference: {fileID: 0}
-    - target: {fileID: 6326742587593180348, guid: 4a4081377d16174428c04005f33d79ab, type: 3}
-      propertyPath: snowBall
-      value: 
-      objectReference: {fileID: 3826495849633284277}
-    - target: {fileID: 6326742587593180348, guid: 4a4081377d16174428c04005f33d79ab, type: 3}
-      propertyPath: moveSpeed
-      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8908945514095578797, guid: 4a4081377d16174428c04005f33d79ab, type: 3}
       propertyPath: m_LocalPosition.x
@@ -105,8 +85,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 4350179179154285347, guid: 4a4081377d16174428c04005f33d79ab, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a4081377d16174428c04005f33d79ab, type: 3}

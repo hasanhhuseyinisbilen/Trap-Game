@@ -282,6 +282,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SawMoveAndRotateHorizontal
   moveSpeed: 40
   rotationSpeed: 360
+  deadZoneX: -50
+  useDeadZone: 1
   move: 0
 --- !u!60 &8999145318922969983
 PolygonCollider2D:

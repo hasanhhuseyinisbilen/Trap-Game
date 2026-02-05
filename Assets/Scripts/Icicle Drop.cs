@@ -17,7 +17,7 @@ public class IcicleDrop : MonoBehaviour
         foreach (var rb in allBodies)
         {
 
-            if (!rb.CompareTag("Square"))
+            if (!rb.CompareTag("Trap"))
                 continue;
 
             if (rb.bodyType == RigidbodyType2D.Dynamic)
@@ -27,8 +27,11 @@ public class IcicleDrop : MonoBehaviour
             rb.gravityScale = 10f;
             rb.linearVelocity = Vector2.zero;
 
-            // ROTASYON KİLİDİ (player etkilenmesin diye)
-            
+            // Silinme kodunu otomatik ekle
+            if (rb.gameObject.GetComponent<BuzSarkiti>() == null)
+            {
+                rb.gameObject.AddComponent<BuzSarkiti>();
+            }
         }
     }
 }

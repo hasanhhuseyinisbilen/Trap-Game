@@ -275,8 +275,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63aeabf2184dfa744873d86bab61dfe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SawMoveLeft
-  moveSpeed: 40
+  moveSpeed: 35
   rotationSpeed: 0
+  deadZoneX: -50
+  useDeadZone: 1
   move: 0
 --- !u!60 &3030001279130631121
 PolygonCollider2D:

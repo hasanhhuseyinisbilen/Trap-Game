@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 687568974331067635}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -44.999992, y: -0.0000011920929, z: 0}
+  m_LocalPosition: {x: -57, y: -0.0000011920929, z: 0}
   m_LocalScale: {x: 30, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -166,7 +166,7 @@ GameObject:
   - component: {fileID: 6769791137880840183}
   m_Layer: 0
   m_Name: Horizontalsaw
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -279,8 +279,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63aeabf2184dfa744873d86bab61dfe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SawMoveAndRotateHorizontal
-  moveSpeed: 40
+  moveSpeed: 25
   rotationSpeed: 360
+  deadZoneX: -50
+  useDeadZone: 1
   move: 0
 --- !u!60 &6769791137880840183
 PolygonCollider2D:

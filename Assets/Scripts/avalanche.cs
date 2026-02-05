@@ -3,11 +3,11 @@ using UnityEngine;
 public class SnowBallTrigger : MonoBehaviour
 {
     [Header("Target Object")]
-    public Transform snowBall;  
+    [SerializeField] private Transform snowBall;  
 
     [Header("Movement")]
-    public float moveSpeed = 5f;
-    public float rotationSpeed = -360f;
+    [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private float rotationSpeed = -360f;
 
     private bool move = false;
 

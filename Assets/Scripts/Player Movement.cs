@@ -20,7 +20,7 @@ public class PlayerMovement2D : MonoBehaviour
     public LayerMask groundLayer;
     public Transform groundCheckTransform; // Optional override
     
-    // Jump buffering
+
     float jumpBufferTime = 0.1f;
     float jumpBufferCounter;
 
@@ -53,13 +53,11 @@ public class PlayerMovement2D : MonoBehaviour
         else if (moveInput < -0.1f)
             transform.localScale = new Vector3(-1, 1, 1);
 
-        // --- GELİŞMİŞ ZEMİN KONTROLÜ (OverlapBox) ---
         if (groundLayer.value == 0) groundLayer = ~0;
 
         // Collider sınırlarını al (Pivotu önemsemez, gerçek boyutu kullanır)
         Bounds bounds = col.bounds;
         
-        // Ayakların biraz aşağısında bir kutu oluştur
         float extraHeight = 0.1f;
         Vector2 boxCenter = new Vector2(bounds.center.x, bounds.min.y - extraHeight / 2);
         Vector2 boxSize = new Vector2(bounds.size.x * 0.9f, extraHeight);
@@ -70,7 +68,6 @@ public class PlayerMovement2D : MonoBehaviour
         isGrounded = false;
         foreach (var h in hits)
         {
-            // Kendimiz değilse ve trigger değilse (opsiyonel) zemindir
             if (h.gameObject != gameObject && !h.isTrigger)
             {
                 isGrounded = true;

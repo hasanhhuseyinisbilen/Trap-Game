@@ -26,7 +26,13 @@ public class IcicleTrigger : MonoBehaviour
             rb.gravityScale = 10f;
             rb.linearVelocity = Vector2.zero;
 
-            // ROTASYON KİLİDİ (player etkilenmesin diye)
+            // Silinme kodunu otomatik ekle (böylece tek tek uğraşmazsınız)
+            if (rb.gameObject.GetComponent<BuzSarkiti>() == null)
+            {
+                rb.gameObject.AddComponent<BuzSarkiti>();
+            }
+
+            // ROTASYON KİLİDİ
             rb.freezeRotation = true;
         }
     }
